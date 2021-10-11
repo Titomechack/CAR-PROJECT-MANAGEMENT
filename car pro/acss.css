@@ -1,0 +1,96 @@
+.body{
+	background-color: yellowgreen;
+	color:white;
+	text-align:center;
+    border: 5px ridge #73AD21;
+    border-radius:3px;	
+	font-family: "Times New Roman";
+    height: 632px;
+	
+}
+a{
+	text-decoration:none;
+	color:black;
+	color:#001a09;
+	font-family:"Lucida Console", "Copperplate", sans-serif;
+	padding:20px;	
+
+}
+a:hover{
+	text-decoration:none;
+	color: #FF0000 ;
+	border-radius:8px;
+	font-family: "Lucida Console", "Copperplate", sans-serif;
+	font-size:15px;
+	background-image: url('wr.png');
+	
+
+}
+nav{
+	
+	background-image: url('dff.jpg');
+	padding:15px;
+    border-radius:8px;
+    background-size: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+footer{
+	background-image: url('us.png');
+	margin-top: 390px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+header{
+	background-image: url('vz.jpg');
+	color:#FF6347;
+	font-size:20px;
+	text-shadow: 1px 1px;
+	background-size: 100%;
+	height:10%;
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.hp{
+	font-color: white;
+	float: left;
+	width: 500px;
+	margin-left: 50px; 
+	font-size:16.5px;
+}
+.one{
+	background-image: url('uti.png');
+	width:25%;
+	color:black;
+	float:left;
+    margin-right:8px;
+   margin-left: 8%;
+   margin-top: 20px;
+   width:600px;
+   height: 330px;
+   animation: slider 60s infinite linear;
+   background-size: 70%;
+   box-shadow: 5px 6px 7px 8px white;
+   font-size: 20px;
+
+}
+@keyframes slider{
+	0%{ background-image: url('uti.png'); }
+	30%{ background-image: url('ff.png'); }
+	60%{ background-image: url('she.png'); }
+    70%{ background-image: url('cv.png'); }
+    80%{ background-image: url('as.png'); }
+    90%{ background-image: url('us.png'); }
+}
+@media screen (max-width:stablet)
+{
+min-height:100px;	
+}	
+
+

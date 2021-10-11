@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+<script> 
+
+function RegisterEvents ( )
+{
+    clickme.onclick = ChangeStyle;
+
+    username.onclick = ChangeStyle;
+}
+
+function ChangeStyle ( )
+{
+    this.style.backgroundColor = "red";
+}
+
+</script>
+
+</head>
+
+<body onload="RegisterEvents()" >
+
+<div id="username"> Hi, user! </div>
+
+<button id="clickme"> Click Me! </button>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<label>Name:</label><input type ="text" input id="myName" /><br>
+<label>Street:</label><input type="text" input id="myStreet" /><br>
+<label>City:</label><input type="text" input id="myCity" /><br>
+<label>State:</label> <input type="text" input id="myState" /><br>
+<label>Zip:</label> <input type="text" input id="myZip" /><br>
+
+<input type="submit" value="Submit" onclick="myAlert()">
+</form>
+<script type="text/javascript">
+//my myAlertFunc (from external file) 
+
+function myAlert(){
+    var person = new Person(document.getElementById('myName').value, document.getElementById("myStreet").value, document.getElementById("myCity").value, document.getElementById("myState").value, document.getElementById("myZip").value);
+    alert(person.getFullAddress());
+}
+
+//and my getFullAddress proto from my Person class
+
+Person.prototype.getFullAddress = function () {
+    return ("Hi, my name is" + " " + this.name + "," + " " + "and my address is:" + " " + this.street + "," + this.city + "," + this.state + "," + this.zip);
+};
+</script>
